@@ -1,2 +1,2 @@
-#Open-CV study
-OpenCV 예제 만들어 본 것들 
+# OpenCV With Python
+OpenCV 예제 풀어본거 업로드할거임
