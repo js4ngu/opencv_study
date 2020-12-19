@@ -3,7 +3,7 @@ import sys
 
 print('Hello openCV', cv2.__version__)
 
-img = cv2.imread('opencv-study\ch01\cat.bmp')
+img = cv2.imread('D:\FIles\study\open-cv\study\opencv_study\ch01\img.bmp')
 
 if img is None:
     print('Image load failed')
