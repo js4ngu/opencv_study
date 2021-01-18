@@ -21,3 +21,4 @@ plt.show()
 plt.subplot(121), plt.axis('off'), plt.imshow(imgRGB)
 plt.subplot(122), plt.axis('off'), plt.imshow(imgGray, cmap='gray')
 plt.show()
+        
