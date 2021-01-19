@@ -31,5 +31,5 @@ while True:
     if cv2.waitKey(20) == 27:
         break
 
-cap.release()
+cap.release() #open된 video 나 영상장치를 닫습니다/
 cv2.destroyAllWindows()
