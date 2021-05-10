@@ -3,7 +3,7 @@ import cv2
 
 
 # 컬러 영상 출력
-imgBGR = cv2.imread('D:\FIles\study\open-cv\study\opencv_study\ch01\img.bmp')
+imgBGR = cv2.imread('/Users/yoojongsang/Documents/GitHub/opencv_study/ch01/cat_gray.png')
 imgRGB = cv2.cvtColor(imgBGR, cv2.COLOR_BGR2RGB)
 
 plt.axis('off')
@@ -11,7 +11,7 @@ plt.imshow(imgRGB)
 plt.show()
 
 # 그레이스케일 영상 출력
-imgGray = cv2.imread('D:\FIles\study\open-cv\study\opencv_study\ch01\img.bmp', cv2.IMREAD_GRAYSCALE)
+imgGray = cv2.imread('/Users/yoojongsang/Documents/GitHub/opencv_study/ch01/cat_gray.png', cv2.IMREAD_GRAYSCALE)
 
 plt.axis('off')
 plt.imshow(imgGray, cmap='gray')

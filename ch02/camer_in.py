@@ -2,7 +2,7 @@ import sys
 import cv2
 
 #cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('D:/FIles/study/open-cv/study/opencv_study/ch02/video1.mp4')
+cap = cv2.VideoCapture('/Users/yoojongsang/Documents/GitHub/opencv_study/ch02/video1.mp4')
 
 if not cap.isOpened():
     print('camera open fail')
